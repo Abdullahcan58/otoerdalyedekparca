@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f5c400" />
+
+  <title>Oto Erdal | Hızlı İletişim</title>
+
+  <style>
+    :root {
+      --yellow: #f5c400;
+      --black: #111214;
+      --dark: #1b1d20;
+      --white: #ffffff;
+      --gray: #b9bdc4;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(245, 196, 0, 0.18), transparent 35%),
+        linear-gradient(180deg, #0b0c0e 0%, #15171a 100%);
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      padding: 30px 18px 40px;
+    }
+
+    .logo-area {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .car-icon {
+      font-size: 50px;
+      margin-bottom: 8px;
+    }
+
+    .logo-area h1 {
+      font-size: 40px;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    .logo-area h1 span {
+      color: var(--yellow);
+    }
+
+    .logo-area p {
+      margin-top: 7px;
+      color: var(--gray);
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .welcome {
+      background: linear-gradient(135deg, var(--yellow), #ffdf55);
+      color: #111;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 18px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+    }
+
+    .welcome h2 {
+      font-size: 22px;
+      margin-bottom: 6px;
+    }
+
+    .welcome p {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .buttons {
+      display: grid;
+      gap: 14px;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      text-decoration: none;
+      color: white;
+      background: var(--dark);
+      border-radius: 18px;
+      padding: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      border-color: var(--yellow);
+    }
+
+    .button:active {
+      transform: scale(0.98);
+    }
+
+    .icon {
+      width: 55px;
+      height: 55px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      background: var(--yellow);
+      color: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+
+    .button-text strong {
+      display: block;
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+
+    .button-text small {
+      color: var(--gray);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .address {
+      margin-top: 18px;
+      padding: 18px;
+      background: #0d0e10;
+      border-radius: 18px;
+      border: 1px solid rgba(245, 196, 0, 0.35);
+      text-align: center;
+    }
+
+    .address h3 {
+      color: var(--yellow);
+      margin-bottom: 8px;
+    }
+
+    .address p {
+      color: #dedede;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .feature {
+      background: #24272b;
+      border-radius: 20px;
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 22px;
+      color: #777d85;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="logo-area">
+      <div class="car-icon">🚘</div>
+
+      <h1>
+        <span>OTO</span> ERDAL
+      </h1>
+
+      <p>OTO YEDEK PARÇA</p>
+    </div>
+
+    <div class="welcome">
+      <h2>Hoş Geldiniz 👋</h2>
+      <p>İşlem seçin, tek dokunuşla bize ulaşın.</p>
+    </div>
+
+    <div class="buttons">
+
+      <!-- TELEFON -->
+      <a
+        class="button"
+        href="tel:+905453411529"
+      >
+        <div class="icon">📞</div>
+
+        <div class="button-text">
+          <strong>Hemen Ara</strong>
+          <small>0545 341 15 29</small>
+        </div>
+      </a>
+
+      <!-- WHATSAPP -->
+      <a
+        class="button"
+        href="https://wa.me/905453411529?text=Merhaba%20Oto%20Erdal,%20yedek%20parça%20hakkında%20bilgi%20almak%20istiyorum."
+        target="_blank"
+      >
+        <div class="icon">💬</div>
+
+        <div class="button-text">
+          <strong>WhatsApp'tan Yaz</strong>
+          <small>Şase numarası ve istediğiniz parçayı gönderin</small>
+        </div>
+      </a>
+
+      <!-- GOOGLE MAPS -->
+      <a
+        class="button"
+        href="https://www.google.com/maps/search/?api=1&query=Namık%20Kemal%20Mahallesi%20Deniz%20Gezmiş%20Caddesi%20No%2092%20Esenyurt%20İstanbul"
+        target="_blank"
+      >
+        <div class="icon">📍</div>
+
+        <div class="button-text">
+          <strong>Yol Tarifi Al</strong>
+          <small>Google Haritalar üzerinden konumumuzu açın</small>
+        </div>
+      </a>
+
+      <!-- GOOGLE YORUM -->
+      <a
+        class="button"
+        href="https://g.page/r/Cc2-6uJ3JejgEBM/review"
+        target="_blank"
+      >
+        <div class="icon">⭐</div>
+
+        <div class="button-text">
+          <strong>Google'da Bizi Gör</strong>
+          <small>Google işletmemizi görüntüleyin ve yorum yapın</small>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="address">
+
+      <h3>OTO ERDAL</h3>
+
+      <p>
+        Namık Kemal Mahallesi<br>
+        Deniz Gezmiş Caddesi No:92<br>
+        Esenyurt / İstanbul
+      </p>
+
+      <div class="features">
+
+        <div class="feature">
+          🚚 81 İle Kargo
+        </div>
+
+        <div class="feature">
+          🛵 İstanbul İçi Kurye
+        </div>
+
+        <div class="feature">
+          ⚡ Hızlı Destek
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer>
+      Oto Erdal • Oto Yedek Parça
+    </footer>
+
+  </div>
+
+</body>
+</html>
